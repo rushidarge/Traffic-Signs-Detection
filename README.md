@@ -7,6 +7,6 @@ In urban environments, efficient routing/transport of goods is a huge problem. T
 Two types of dataset
 1. Only sign dataset (Easily available)
 2. Signs with background (Actual on images with curation)
-  1. Vietnam traffic signs (duplicate data)
-  2. Moroccan traffic signs ( less data, Arabic )
-  3. Kaggle has Google Map screenshot dataset
+    1. Vietnam traffic signs (duplicate data)
+    2. Moroccan traffic signs ( less data, Arabic )
+    3. Kaggle has Google Map screenshot dataset
