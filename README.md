@@ -24,18 +24,20 @@ Two types of dataset
 | Test Data | 628 (14.33%)
 | Val Data | 500 (11.41%) 
 
+![dataset distribution](/images/data_distribution_visualise.png "data_distribution_visualise")
+
 ![sample dataset](/images/data_sample.png "sample dataset")
 
 ## Performance Metrics
 ![Performance Metrics](/images/accuracy_calculation.png "accuracy_calculation")
 
-<b>True Positive
+<b>True Positive:
 A correctly detected traffic sign with the correct label.
 
-False Positive
+False Positive:
 A detected traffic sign that is incorrectly labeled.
 
-False Negative
+False Negative:
 A traffic sign that was missed by the detector.
 </b>
 
@@ -52,6 +54,12 @@ A traffic sign that was missed by the detector.
 - **F-Score:** The F-Score is the harmonic mean of precision and recall, providing a single metric that balances both precision and recall.
   
   F1 = 2 * (Precision * Recall) / (Precision + Recall)
+
+## F1 Score Comparision
+- V1 is Uncooked Model (Half Train)
+- V2 is fully train model 
+![Performance Metrics](/images/accuracy_comparision.png "accuracy_comparision.png")
+
 
 #### Getting Started
 ### Prerequisites
