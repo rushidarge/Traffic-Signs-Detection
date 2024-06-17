@@ -17,9 +17,11 @@ Two types of dataset
     1. Vietnam traffic signs (duplicate data)
     2. Moroccan traffic signs ( less data, Arabic )
     3. Kaggle has a Google Map screenshot dataset
+  
+![sample dataset](/images/data_sample.png "sample dataset")
 
 ## Performance Metrics
-![Performance Metrics](/image/accuracy_calculation.png "accuracy_calculation")
+![Performance Metrics](/images/accuracy_calculation.png "accuracy_calculation")
 
 <b>True Positive
 A correctly detected traffic sign with the correct label.
