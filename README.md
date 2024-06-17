@@ -1,13 +1,12 @@
----
-title: Traffic Signs Detection
-emoji: 🦀
-colorFrom: purple
-colorTo: gray
-sdk: gradio
-sdk_version: 4.36.1
-app_file: app.py
-pinned: false
-license: apache-2.0
----
+# Traffic Signs Detection
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+## Problem Statement
+In urban environments, efficient routing/transport of goods is a huge problem. To solve that problem we are creating a computer vision-based that can solution that can analyze images of roadways to detect and classify stationary objects.
+
+## Dataset
+Two types of dataset
+1. Only sign dataset (Easily available)
+2. Signs with background (Actual on images with curation)
+  1. Vietnam traffic signs (duplicate data)
+  2. Moroccan traffic signs ( less data, Arabic )
+  3. Kaggle has Google Map screenshot dataset
