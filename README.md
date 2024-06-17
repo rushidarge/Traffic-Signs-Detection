@@ -41,25 +41,17 @@ A traffic sign that was missed by the detector.
 
 - **Intersection over Union (IoU):** IoU is a measure of the overlap between the predicted bounding box and the ground truth bounding box. It is calculated as the area of the intersection divided by the area of the union of the two boxes. A higher IoU indicates better performance.
   
-  ![IoU Calculation](path_to_image/accuracy_calculation.png)
-
 - **Precision:** Precision is the ratio of true positive detections to the total number of detections made. It indicates how many of the detected signs are actually correct.
   
-  \[
-  \text{Precision} = \frac{\text{True Positives}}{\text{True Positives} + \text{False Positives}}
-  \]
+  Precision = True Positives / True Positives + False Positives
 
 - **Recall:** Recall is the ratio of true positive detections to the total number of actual signs. It indicates how many of the actual signs were correctly detected.
   
-  \[
-  \text{Recall} = \frac{\text{True Positives}}{\text{True Positives} + \text{False Negatives}}
-  \]
+  Recall = True Positives / True Positives + False Negatives
 
 - **F-Score:** The F-Score is the harmonic mean of precision and recall, providing a single metric that balances both precision and recall.
   
-  \[
-  F1 = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}}
-  \]
+  F1 = 2 * (Precision * Recall) / (Precision + Recall)
 
 #### Getting Started
 ### Prerequisites
