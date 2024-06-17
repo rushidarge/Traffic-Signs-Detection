@@ -57,7 +57,7 @@ A traffic sign that was missed by the detector.
 
 ## F1 Score Comparision
 - V1 is Uncooked Model (Half Train)
-- V2 is fully train model 
+- V2 is a fully trained model 
 ![Performance Metrics](/images/accuracy_comparision.png "accuracy_comparision.png")
 
 
@@ -68,7 +68,15 @@ A traffic sign that was missed by the detector.
 - OpenCV
 - Other dependencies listed in `requirements.txt`
 
+## Conclusion:
+Our YOLOv9-based traffic sign detection system shows promise but requires further improvements:
 
+1. Data Augmentation: Increase data for specific classes to enhance model training.
+2. Data Curation Quality: Improve annotation accuracy and consistency.
+3. OCR Integration: Add OCR capabilities for signs with textual information.
+4. Pipeline Development: Develop a robust data processing and model deployment pipeline.
+5. Model Upgrades: Regularly update and retrain the model with new data.
+6. Performance Monitoring: Implement monitoring to identify and address shortcomings.
 
 
 
