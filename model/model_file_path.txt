@@ -1,0 +1,2 @@
+You can download model file from following link
+https://huggingface.co/spaces/rushidarge/traffic_signs_detection/blob/main/model/V2_best.pt
