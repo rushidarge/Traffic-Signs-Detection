@@ -16,8 +16,14 @@ Two types of dataset
 2. Signs with background (Actual on images with curation)
     1. Vietnam traffic signs (duplicate data)
     2. Moroccan traffic signs ( less data, Arabic )
-    3. Kaggle has a Google Map screenshot dataset
-  
+    3. Kaggle has a Google Map screenshot dataset [Link]([https://markdownlivepreview.com/](https://www.kaggle.com/datasets/raduoprea/traffic-signs))
+
+| Dataset | Image Count |
+|---|---|
+| Train Data | 3253 (74.25%)
+| Test Data | 628 (14.33%)
+| Val Data | 500 (11.41%) 
+
 ![sample dataset](/images/data_sample.png "sample dataset")
 
 ## Performance Metrics
