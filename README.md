@@ -9,4 +9,4 @@ Two types of dataset
 2. Signs with background (Actual on images with curation)
     1. Vietnam traffic signs (duplicate data)
     2. Moroccan traffic signs ( less data, Arabic )
-    3. Kaggle has Google Map screenshot dataset
+    3. Kaggle has a Google Map screenshot dataset
