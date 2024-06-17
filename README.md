@@ -5,6 +5,9 @@ In urban environments, efficient routing/transport of goods is a huge problem. T
 
 This project involves the detection and classification of traffic signs using the YOLOv9 (You Only Look Once version 9) object detection model. YOLOv9 is a state-of-the-art object detection algorithm that excels in both speed and accuracy, making it ideal for real-time applications such as autonomous driving and traffic monitoring.
 
+## Demo
+![demo](/images/demo.gif "demo")
+
 ## Features
 - Real-time traffic sign detection
 - High accuracy and low latency
